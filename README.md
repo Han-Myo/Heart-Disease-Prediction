@@ -117,17 +117,17 @@ The final tuned models and preprocessing scaler were serialized using `joblib` f
 
 ---
 
-➡ **Final Model Chosen:** Logistic Regression (Primary), Random Forest (Supporting)
+## **Final Model Chosen:** Logistic Regression (Primary), Random Forest (Supporting)
 
 ---
 
-## 💡 Clinical Interpretation  
-- **Chest Pain Type**: Strongest predictor — angina-type chest pain and non-anginal pain patterns linked to blockages  
-- **Maximum Heart Rate**: Lower values correlate with reduced cardiac fitness  
-- **ST Depression** and **Major Vessel Count**: Indicators of oxygen deprivation and arterial narrowing  
-- **Thalassemia Status**: Reinforces stress-test–based diagnosis relevance  
+## **Key Insights & Findings**
 
-These findings align with established cardiology research, confirming the model’s clinical validity.
+- Early detection through ML can significantly improve heart disease risk assessment.
+- Logistic Regression balances interpretability and accuracy; vital for medical decisions.
+- Random Forest validates and enhances feature reliability through ensemble averaging.
+- Functional indicators (e.g., chest pain, ST depression, heart rate) outweigh demographics (e.g., gender, age) in predictive power.
+- Minimizing false negatives ensures fewer missed diagnoses, aligning with clinical priorities.
 
 ---
 
@@ -138,3 +138,9 @@ These findings align with established cardiology research, confirming the model�
 - **Version Control:** Git & GitHub  
 
 ---
+
+## Conclusion
+
+This project demonstrates how machine learning can support clinical decision-making by accurately predicting heart disease risk using non-invasive data.
+The selected Logistic Regression model combines interpretability, reliability, and strong recall performance, making it well-suited for integration into real-world healthcare systems.
+When supported by Random Forest, it provides a powerful balance between transparency and predictive strength; a foundation for future AI-assisted medical tools.
