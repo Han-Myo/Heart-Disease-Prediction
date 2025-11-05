@@ -43,8 +43,6 @@ The work involves:
 
 ***Outcome:*** A clinically valid, consistent, and analysis-ready dataset.
 
----
-
 ### **2. Exploratory Data Analysis (EDA)**
 EDA explored the relationships between key clinical variables and heart disease outcomes.
 
@@ -56,8 +54,6 @@ EDA explored the relationships between key clinical variables and heart disease 
 - **Exercise-Induced Angina (exang):** Elevated risk among patients with positive angina responses.  
 
 Visual tools such as boxplots, correlation matrices, and density plots provided interpretable and clinically aligned insights.
-
----
 
 ### **3. Model Development and Evaluation**
 Four classification algorithms were initially trained and compared:
@@ -71,8 +67,6 @@ The remaining three models were selected for deeper optimization and interpretat
 -  **Logistic Regression (Primary Model)** – Best interpretability, recall, and clinical reliability.  
 -  **Random Forest (Supporting Model)** – Strong secondary validation, confirming key feature stability.  
 -  **Decision Tree** – Retained for comparison and interpretability benchmarking, though less generalizable.
-  
----
 
 ### **4. Model Evaluation Process**
 Each model was trained and tested using an 80/20 data split, with metrics including:
@@ -91,8 +85,6 @@ Each model was trained and tested using an 80/20 data split, with metrics includ
 
 **After baseline testing**, the top three models were tuned using **GridSearchCV** for optimal hyperparameter settings.  
 
----
-
 ### **5. Final Models and Clinical Insights**
 After tuning:
 - **Logistic Regression** achieved the best overall recall (0.8788) and ROC-AUC (0.8810).  
@@ -110,8 +102,6 @@ After tuning:
 | Thalassemia | Genetic blood abnormality affecting oxygen flow | Moderate positive |
 
 ***Clinical relevance:*** These findings align with established cardiology insights, validating the models’ interpretability and medical reliability.
-
----
 
 ### **6. Model Saving and Deployment Readiness**
 The final tuned models and preprocessing scaler were serialized using `joblib` for potential deployment.
