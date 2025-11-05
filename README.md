@@ -33,8 +33,9 @@ The work involves:
 ## Project Workflow  
 
 ### **1. Data Cleaning**
-- Verified dataset integrity: no missing, duplicate, or invalid entries.  
-- Renamed columns for clarity and documentation consistency.  
+- Verified dataset integrity: no missing, or invalid entries.
+- - Duplicate records were identified and removed to ensure each patient represented a unique observation.
+- Feature names were renamed for clarity and consistency.
 - Checked for biologically impossible values (e.g., zero cholesterol, extreme blood pressure).  
 - Created two data versions:
   - `df_eda` – for human-readable visualization.  
