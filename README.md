@@ -35,6 +35,11 @@ https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 ---
 
+### Medium Article Link:
+Read our full story here: [How We Used Machine Learning to Predict Heart Disease](<your_medium_link>)
+
+---
+
 ## Project Workflow  
 
 ### **1. Data Cleaning**
@@ -143,6 +148,5 @@ When supported by Random Forest, it provides a powerful balance between transpar
 
 ---
 
-## Medium Article
-Read our full story here: [How We Used Machine Learning to Predict Heart Disease](<your_medium_link>)
+
 
