@@ -135,3 +135,9 @@ The final tuned models and preprocessing scaler were serialized using `joblib` f
 This project demonstrates how machine learning can support clinical decision-making by accurately predicting heart disease risk using non-invasive data.
 The selected Logistic Regression model combines interpretability, reliability, and strong recall performance, making it well-suited for integration into real-world healthcare systems.
 When supported by Random Forest, it provides a powerful balance between transparency and predictive strength; a foundation for future AI-assisted medical tools.
+
+---
+
+## Medium Article
+Read our full story here: [How We Used Machine Learning to Predict Heart Disease](<your_medium_link>)
+
