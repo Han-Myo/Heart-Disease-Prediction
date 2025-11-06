@@ -26,7 +26,12 @@ The work involves:
 - Exploratory data analysis (EDA) to uncover clinical patterns  
 - Model building, tuning, and evaluation  
 - Clinical interpretation of predictive features  
-- Deployment-ready model saving  
+- Deployment-ready model saving
+
+---
+
+### Dataset:
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 ---
 
