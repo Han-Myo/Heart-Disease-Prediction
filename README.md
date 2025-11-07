@@ -119,7 +119,7 @@ After tuning:
 ***Clinical relevance:*** These findings align with established cardiology insights, validating the models’ interpretability and medical reliability.
 
 ### **6. Model Saving and Deployment Readiness**
-The final tuned models and preprocessing scaler were serialized using `joblib` for potential deployment.
+The final tuned models and preprocessing scaler were serialized for potential deployment.
 
 ---
 
