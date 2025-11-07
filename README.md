@@ -31,12 +31,17 @@ The work involves:
 ---
 
 ### Dataset Link:
-https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+[Kaggle Heart Disease dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
 ---
 
 ### Medium Article Link:
-Read our full story here: [How We Used Machine Learning to Predict Heart Disease](<your_medium_link>)
+Read our full story here: [How We Used Machine Learning to Predict Heart Disease](https://medium.com/@gi.hanmyo/how-we-used-machine-learning-to-predict-heart-disease-and-what-it-revealed-about-the-human-a438c7fb0c15)
+
+---
+
+### App Link:
+You can try the deployed app here → [Launch Heart Disease Prediction App](https://matrix-heart-disease-prediction.streamlit.app/)
 
 ---
 
@@ -134,7 +139,7 @@ The final tuned models and preprocessing scaler were serialized using `joblib` f
 
 ## Tech Stack  
 - **Language:** Python 3  
-- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, joblib  
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, pickle, streamlit
 - **Environment:** Jupyter Notebook / Anaconda  
 - **Version Control:** Git & GitHub  
 
