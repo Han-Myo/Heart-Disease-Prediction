@@ -1,0 +1,16 @@
+# Core data manipulation
+pandas
+numpy
+
+# Data visualization
+matplotlib
+seaborn
+
+# Statistical analysis
+scipy
+
+# Machine learning and modeling
+scikit-learn
+
+# Streamlit web app framework
+streamlit
